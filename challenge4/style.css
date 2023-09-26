@@ -1,15 +1,30 @@
 /* Add your code in each class */
 body {
+  background-color: indigo;
+  color: white;
 }
 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .movie-card {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin-top: 100px;
+  position: relative;
 }
 .movie-image {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
 }
-.movie-details-container {
-}
+
 .descriptions {
+  padding-left: 10px;
+  position: absolute;
+  bottom: 0;
 }
 
 /*A gift from us!*/
@@ -28,4 +43,6 @@ body {
   );
 }
 .movie-title {
+  font-size: large;
+  font-weight: 700;
 }

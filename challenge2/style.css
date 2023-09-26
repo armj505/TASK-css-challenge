@@ -1,0 +1,23 @@
+body {
+  background-image: url("../assets/pokemon-bg.jpg");
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  opacity: 0.9;
+  border-radius: 20px;
+  margin: auto;
+  padding: 25px;
+  width: 300px;
+  margin-top: 150px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  border-radius: 50%;
+  width: 100px;
+}

@@ -1,10 +1,25 @@
 /* Add your code in each class */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
 }
 .head {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  background-color: #ffa67b;
+  color: #6a0000;
+  position: sticky;
+  top: 0;
 }
 
 .row {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #6a0000;
+  color: #ffa67b;
   /* .row is used in ./index.js not in the html filee */
 }
 
